@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * main - Entry point
- * Description: print _putchar
- * Return: 0
+ * Description: 'print _putchar to sdout'
+ * Return: always 0
  */
 int main(void)
 {
