@@ -6,15 +6,17 @@
 */
 void print_alphabet_x10(void)
 {
-int i;
-int j;
 
-for (j = 1; i <= 10; i++)
-{
-for (j = 97; j <= 122; j++)
-{
-_putchar(j);
-}
-_putchar('\n');
-}
+	int i, j;
+	char letter;
+
+	for (i = 0; i < 10; i++)
+	{
+		letter = 'a';
+		for (j = 0; j < 26; j++)
+		{
+			_putchar(letter + j);
+		}
+		_putchar('\n');
+	}
 }
